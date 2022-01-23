@@ -1,0 +1,273 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.page{
+      width: 100%;
+      height: 900px;
+}
+.head{
+      height: 80px;
+      display: flex;
+      justify-content: center;
+}
+.main, .team, .lessons{
+      width: 10%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+      font-family: 'Besley', serif;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Ubuntu', sans-serif;
+}
+.team:hover, .lessons:hover{
+      color: blue;
+}
+.main{
+      color: rgb(0, 195, 255);;
+}
+.block{
+      height: 800px;
+      background-color: rgb(186, 186, 201);
+      border-radius: 40px;
+      display: flex;
+}
+.head, .block{
+      width: 95%;
+      margin: 0 auto;
+}
+
+.left{
+      width: 10%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.menu{
+      width: 70%;
+      height: 70%;
+      background-color: white;
+      border-radius: 30px;
+      flex-wrap: wrap;
+}
+.folder, .monitor, .users, .cloud, .cog, .menu, .right, .one, .two, .three, .teamImg, .rightOne, .rightTwo, .imgAndy, .boxA, .boxChange, .imgChange, .boxImgChange, .boxCompany, .imgCompany, .boximgCompany{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.folder, .monitor, .users, .cloud, .cog{
+      width: 70%;
+      height: 15%;
+      border-radius: 10px;
+      color: white;
+}
+.monitor{
+      background-color: rgb(0, 195, 255);
+}
+.folder:hover, .users:hover, .cloud:hover, .cog:hover{
+      background-color: rgb(0, 195, 255);
+}
+.folder:hover{
+      width: 100px;
+}
+.folder img, .monitor img, .users img, .cloud img, .cog img{
+      width: 80%;
+      height: 80%;
+}
+.right{
+      width: 90%;
+      height: 100%;
+}
+.rightOne{
+      width: 40%;
+      height: 100%;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+}
+.rightTwo{
+      width: 60%;
+      height: 100%;
+}
+.boxAndy{
+      width: 95%;
+      height: 20%;
+      display: flex;
+}
+.boxChange{
+      width: 95%;
+      height: 70%;
+      flex-wrap: wrap;
+}
+.boxCompany{
+      width: 97%;
+      height: 95%;
+      flex-wrap: wrap;
+}
+.boxAndy, .boxChange, .boxCompany{
+      background-color: #fff;
+      border-radius: 25px;
+}
+.imgAndy, .imgChange{
+      width: 20%;
+      height: 100%;
+}
+.textAndy, .textChange{
+      width: 80%;
+      height: 100%;
+}
+.boxA, .boxImgChange, .boximgCompany{
+      width: 70%;
+      height: 58%;
+      background-color: rgb(255, 0, 98);
+      border-radius: 50%;
+      color: white;
+      font-size: 60px;
+}
+.nameAndy, .gmailAndy, .nameChange, .gmailChange{
+      width: 100%;
+      height: 50%;
+}
+.nameAndy, .nameChange, .textOld, .textNew, .textConfirm, .nameCompany, .textName, .textAddress, .textCountry,
+.textState, .textCity, .textPostal{
+      font-family: 'Besley', serif;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 18px;
+}
+.nameAndy, .nameChange{
+      font-size: 28px;
+      padding-top: 8%;
+}
+.gmailAndy, .gmailChange, .gmailCompany{
+      color: rgb(145, 143, 143);
+      font-family: 'Glory', sans-serif;
+      font-size: 21px;
+}
+.blockChange{
+      width: 100%;
+      height: 28.5%;
+      display: flex;
+}
+.boxImgChange{
+      background-color: rgb(7, 184, 238);
+}
+.blockOld, .blockNew, .blockConfirm, .blockSave{
+      width: 90%;
+      height: 17%;
+}
+.formOld, .formNew, .formConfirm{
+      width: 100%;
+      height: 50px;
+      border-radius: 15px;
+      margin-top: 2.5%;
+}
+.formOld:hover, .formNew:hover, .formConfirm:hover{
+      border: 3px solid rgb(7, 184, 238);
+}
+.buttonSave, .buttonSave2{
+      width: 25%;
+      height: 55%;
+      background-color: rgb(7, 184, 238);
+      color: white;
+      border-radius: 15px;
+      margin-top: 3%;
+      margin-left: 75%;
+}
+
+
+.blockCompany{
+      width: 95%;
+      height: 21%;
+      display: flex;
+}
+.imgCompany{
+      width: 15%;
+      height: 100%
+}
+.textCompany{
+      width: 85%;
+      height: 100%;
+}
+.boximgCompany{
+      height: 60%;
+      background-color: rgb(255, 123, 0);
+}
+.boximgCompany img{
+      width: 80%;
+      height: 80%;
+}
+.nameCompany{
+      width: 100%;
+      height: 30%;
+      font-size: 28px;
+      padding-top: 6%;
+}
+.gmailCompany{
+      width: 100%;
+      height: 70%;
+      padding-top: 5%;
+}
+.boxForm{
+      width: 95%;
+      height: 39%;
+      display: flex;
+}
+.blockName{
+      width: 95%;
+      height: 17%;
+}
+.textName{
+      margin-top: 20px;
+}
+.formName, .formAddress{
+      width: 100%;
+      height: 50px;
+      border-radius: 15px;
+      margin-top: 4%;
+}
+.formName:hover, .formAddress:hover{
+      border: 3px solid rgb(7, 184, 238);
+}
+.blockAddress{
+      width: 95%;
+      height: 23%;
+}
+.textAddress{
+      margin-top: 50px;
+}
+.formAddress{
+      height: 76px;
+      margin-top: 3%;
+}
+.countryState, .cityPostal{
+      width: 50%;
+      height: 100%;
+}
+.blockCountry, .blockState, .blockCity, .blockPostal, .blockSave2{
+      width: 95%;
+      height: 17%;
+      margin-top: 1%;
+}
+.formCountry, .formState, .formCity, .formPostal{
+      width: 100%;
+      height: 50px;
+      border-radius: 15px;
+      margin-top: 2.5%;
+}
+.formCountry:hover, .formState:hover, .formCity:hover, .formPostal:hover{
+      border: 3px solid rgb(7, 184, 238);
+}
+
+.blockState, .blockPostal{
+      margin-top: 12%;
+}
+.buttonSave2{
+      width: 35%;
+      height: 100%;
+      margin-top: 15%;
+      margin-left: 65%;
+}

@@ -1,0 +1,120 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.page{
+      width: 100%;
+      height: 900px;
+}
+.head{
+      height: 80px;
+      display: flex;
+      justify-content: center;
+}
+.main, .team, .lessons{
+      width: 10%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+      font-family: 'Besley', serif;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Ubuntu', sans-serif;
+}
+.main:hover, .lessons:hover{
+      color: blue;
+}
+.team{
+      color: rgb(0, 195, 255);;
+}
+.block{
+      height: 800px;
+      background-color: rgb(186, 186, 201);
+      border-radius: 40px;
+}
+.head, .block{
+      width: 95%;
+      margin: 0 auto;
+}
+.people{
+      width: 80%;
+      height: 80%;
+}
+.block, .peopleHead, .peopleBottom, .personImg, .personName, .personLogos, .personData{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.peopleHead, .peopleBottom{
+      width: 100%;
+      height: 50%;
+      justify-content: space-evenly;
+}
+.personOne, .personTwo, .personThree, .personFour, .personFive, .personSix, .personSeven, .personEight{
+      width: 20%;
+      height: 90%;
+      background-color: white;
+      border-radius: 30px;
+}
+.personImg, .personName, .personLogos, .personData{
+      width: 100%;
+}
+.personImg{
+      height: 50%;
+}
+.personName, .personLogos{
+      height: 10%;
+}
+.personData{
+      height: 30%;
+}
+.personName{
+      font-size: 18px;
+      font-family: 'Besley', serif;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Ubuntu', sans-serif;
+}
+.personLogos, .personData{
+      font-size: 18px;
+      color: rgb(186, 186, 201);
+      font-family: 'Glory', sans-serif;
+}
+.personImg img{
+      border-radius: 50%;
+}
+.personOne:hover, .personTwo:hover, .personThree:hover, .personFour:hover, .personFive:hover, .personSix:hover, .personSeven:hover, .personEight:hover{
+      background-color: rgb(0, 195, 255);
+      color: white;
+}
+.cash1, .cash2, .cash3, .cash4, .cash5, .cash6, .cash7, .cash8{
+      width: 3%;
+      height: 7%;
+      background-color: blue;
+      position: absolute;
+      border-radius: 50%;
+       display: none;
+}
+.cash1, .cash2, .cash3, .cash4{
+      top: 18%;
+}
+.cash1, .cash5{
+      left: 28.5%;
+}
+.personOne:hover .cash1, .personTwo:hover .cash2, .personThree:hover .cash3, .personFour:hover .cash4, .personFive:hover .cash5, .personSix:hover .cash6, .personSeven:hover .cash7, .personEight:hover .cash8{
+      background-color: white;
+      display: block;
+}
+.cash2, .cash6{
+      left: 46.5%;
+}
+.cash3, .cash7{
+      left: 65%;
+}
+.cash4, .cash8{
+      left: 83.5%;
+}
+.cash5, .cash6, .cash7, .cash8{
+      top: 55%;
+}

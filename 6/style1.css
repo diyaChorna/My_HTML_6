@@ -1,0 +1,185 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.page{
+      width: 100%;
+      height: 900px;
+}
+.head{
+      height: 80px;
+      display: flex;
+      justify-content: center;
+}
+.main, .team, .lessons{
+      width: 10%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+      font-family: 'Besley', serif;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Ubuntu', sans-serif;
+}
+.team:hover, .lessons:hover{
+      color: blue;
+}
+.main{
+      color: rgb(0, 195, 255);;
+}
+.block{
+      height: 800px;
+      background-color: rgb(186, 186, 201);
+      border-radius: 40px;
+      display: flex;
+}
+.head, .block{
+      width: 95%;
+      margin: 0 auto;
+}
+
+.left{
+      width: 10%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.menu{
+      width: 70%;
+      height: 70%;
+      background-color: white;
+      border-radius: 30px;
+      flex-wrap: wrap;
+}
+.folder, .monitor, .users, .cloud, .cog, .menu, .right, .one, .two, .three, .teamImg{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.folder, .monitor, .users, .cloud, .cog{
+      width: 70%;
+      height: 15%;
+      border-radius: 10px;
+      color: white;
+}
+.folder:hover, .monitor:hover, .users:hover, .cloud:hover, .cog:hover{
+      background-color: rgb(0, 195, 255);
+}
+.folder{
+      width: 70px;
+      transition: width 2s;
+}
+.folder:hover{
+      width: 100px;
+}
+.folder img, .monitor img, .users img, .cloud img, .cog img{
+      width: 80%;
+      height: 80%;
+}
+.right{
+      width: 90%;
+      height: 100%;
+}
+.border{
+      width: 100%;
+      height: 90%;
+      display: flex;
+      flex-wrap: wrap;
+}
+.one{
+      width: 100%;
+      height: 25%;
+      justify-content: space-evenly;
+}
+.html{
+      width: 52%;
+}
+.logos{
+      width: 42%;
+}
+.html, .logos{
+      height: 90%; 
+      background-color: #fff;
+      border-radius: 25px;
+}
+.two{
+      width: 65%;
+      height: 75%;
+      flex-wrap: wrap;
+}
+.three{
+      width: 35%;
+      height: 75%;
+}
+.descriptionBox, .teamBox{
+      width: 93.5%;
+      height: 45%;
+      background-color: #fff;
+      border-radius: 25px;
+}
+.dataBox{
+      width: 88%;
+      height: 95%;
+      background-color: #fff;
+      border-radius: 25px;
+}
+.projectName, .company, .descriptionLorem, .teamLorem, .dataLorem{
+      color: rgb(145, 143, 143);
+      font-family: 'Glory', sans-serif;
+      font-size: 22px;
+}
+.projectName{
+      padding-top: 5%;
+}
+.company, .description{
+      padding-top: 7%;
+}
+.htmlCss, .logosIt{
+      font-size: 25px;
+}
+.htmlCss, .logosIt, .description,.teamName, .data{
+      color: #000;
+      font-family: 'Besley', serif;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Ubuntu', sans-serif;
+}
+.projectName, .htmlCss, .company,.logosIt, .descriptionLorem, .description, .data, .dataLorem{
+      padding-left: 5%;
+}
+.description, .teamName, .data{
+      font-size: 28px;
+}
+.descriptionLorem, .teamLorem, .dataLorem{
+      padding-top: 1%;
+}
+.teamBox{
+      display: flex;
+}
+.teamImg{
+      width: 15%;
+      height: 100%;
+}
+.teamText{
+      width: 85%;
+      height: 100%;
+}
+.teamName{
+      padding-top: 10%;
+}
+.dataImg{
+      height: 30%;
+      display: flex;
+      padding-left: 5%;
+      align-items: center;
+}
+.teamImg img{
+      width: 70%;
+      height: 50%;
+}
+.dataImg img{
+      width: 25%;
+      height: 70%;
+}
